@@ -1,17 +1,16 @@
-#include <iostream>
-#include <cstdio>
 #include <algorithm>
+#include <cstdio>
+#include <iostream>
 #include <string>
 using namespace std;
-int main(){
+int main()
+{
 
-string str;
-cin >> str;
+    string str;
+    cin >> str;
 
+    reverse(str.begin(), str.end());
+    cout << str;
 
-
-reverse(str.begin(), str.end()) ;
-cout << str;
-
- return 0;
+    return 0;
 }
