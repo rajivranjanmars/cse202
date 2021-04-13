@@ -1,15 +1,17 @@
-#include <iostream>
 #include <cstdio>
-#include <vector>
+#include <iostream>
 #include <string>
+#include <vector>
 using namespace std;
-int product (int a, int b){
-    return a*b;
+int product(int a, int b)
+{
+    return a * b;
 }
 
-int main(){
-     int a,b;
-     cin >> a >> b;
-      cout <<  product(a,b);        
- return 0;
+int main()
+{
+    int a, b;
+    cin >> a >> b;
+    cout << product(a, b);
+    return 0;
 }
