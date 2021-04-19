@@ -4,6 +4,8 @@
 #include <vector>
 using namespace std;
 
+Student student[15];
+
 struct Student
 {
     int age, rollnum;
@@ -32,6 +34,30 @@ int main()
         }
     }
     cout << "Student with age 14" << endl;
+    void agedata();
+
+    cout << "Student with even roll number " << endl;
+    rollnum();
+    int t;
+    cin >> t;
+    roll(t);
+
+    return 0;
+}
+void roll(int t)
+{
+    for (int i = 0; i < 15; i++)
+    {
+        if (student[i].rollnum == t)
+        {
+            /* code */
+            cout << student[i].name << " " << student[i].age << " " << student[i].adress << endl;
+        }
+    }
+}
+
+void agedata()
+{
     for (int i = 0; i < 15; i++)
     {
         if (student[i].age == 14)
@@ -39,7 +65,10 @@ int main()
             cout << student[i].name << endl; /* code */
         }
     }
-    cout << "Student with even roll number " << endl;
+}
+
+void rollnum()
+{
     for (int i = 0; i < 15; i++)
     {
         if (student[i].rollnum % 2 == 0)
@@ -49,16 +78,4 @@ int main()
         }
         /* code */
     }
-    int t;
-    cin >> t;
-    for (int i = 0; i < 15; i++)
-    {
-        if (student[i].rollnum == t)
-        {
-            /* code */
-            cout << student[i].name << " " << student[i].age << " " << student[i].adress << endl;
-        }
-    }
-
-    return 0;
 }
