@@ -12,10 +12,10 @@ struct Student
 
 int main()
 {
-    Student student[3];
+    Student student[15];
     int a;
 
-    for (int i = 0; i < 3;)
+    for (int i = 0; i < 15;)
     {
         cin >> a;
         if (a >= 11 && a <= 14)
@@ -32,7 +32,7 @@ int main()
         }
     }
     cout << "Student with age 14" << endl;
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 15; i++)
     {
         if (student[i].age == 14)
         {
@@ -40,7 +40,7 @@ int main()
         }
     }
     cout << "Student with even roll number " << endl;
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 15; i++)
     {
         if (student[i].rollnum % 2 == 0)
         {
@@ -51,7 +51,7 @@ int main()
     }
     int t;
     cin >> t;
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 15; i++)
     {
         if (student[i].rollnum == t)
         {
