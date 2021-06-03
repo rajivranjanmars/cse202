@@ -19,8 +19,6 @@ rollnum= y;
 stdclass=z;
 }
 };
-
-
 int main(){
     // putting input in object of class student by constructor method            
     student obj( "Rajiv Ranjan",34,54); 
