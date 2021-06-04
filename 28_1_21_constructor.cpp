@@ -5,6 +5,7 @@
 #include <string>
 using namespace std;
 
+
 // creating a class named student 
 class student{
   public :  
