@@ -3,8 +3,9 @@
 #include <string>
 using namespace std;
 // program for creating function
-class factorial
-}
+
+class factorial{
+
         private:
                         int n,n1,f=1;
         public:
