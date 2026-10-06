@@ -8,4 +8,4 @@ Choose a source file and compile it separately with a C++ compiler. These are in
 
 ## Author
 
-[rajivranjanmars](https://rajivranjana.in)
+[Rajiv Ranjan](https://rajivranjan.in)
